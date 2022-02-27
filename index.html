@@ -2,13 +2,51 @@
 <html>
 
 <head>
-	<title>Parcel Sandbox</title>
+	<title>ToDoApp w/ plainJavaScript</title>
 	<meta charset="UTF-8" />
 </head>
 
 <body>
-	<div id="app"></div>
 
+	<!-- input area -->
+	<div class="input-area">
+		<input placeholder="input your task" />
+		<button>add</button>
+	</div>
+	
+	<!-- task area -->
+	<div class="incomplete-area">
+		<p class="title">ToDo</p>
+		<ul>
+			<li>
+				<div class="list-row">
+					<p> task </p>
+					<button> done </button>
+					<button> delete </button>
+				</div>
+			</li>
+			<li>
+					<div  class="list-row">
+						<p> task </p>
+						<button> done </button>
+						<button> delete </button>
+					</div>
+			</li>
+	</div>
+	
+	<!-- done area -->
+	<div class="done-area">
+		<p class="title"> Done task </p>
+		<ul>
+			<li>
+				<div class="list-row">
+					<p> done task </p>
+					<button> move back </button>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
 	<script src="src/index.js">
 	</script>
 </body>
